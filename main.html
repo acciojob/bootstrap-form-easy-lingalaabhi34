@@ -1,16 +1,72 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <div class="container">
+  <h1 class="text-center">Internship From</h1>
+  <div>
+    <form class="was-validated ">
+    <div class="row py-4">
+      <div class="col-4 ">
+      <label for="first-name-input" class="form-label">First Name</label>
+      <input id="first-name-input" class="form-control " type="text" required>
+      <div class="invalid-feedback">First name required</div>
+    </div>
+    <div class="col-4 ">
+      <label for="last-name-input" class="form-label">Last Name</label>
+      <input id="last-name-input" class="form-control " type="text" required>
+      <div class="invalid-feedback">Last name required</div>
+    </div>
+    <div class="col-4 ">
+      <label for="email-input" class="form-label">Email</label>
+      <input id="email-input" class="form-control " type="email" placeholder="Abhi@gmail.com" required>
+<div class="invalid-feedback">Email required</div>
+    </div>
+    </div>
+    <div class="row py-4">
+      <div class="col-7">
+      <label for="college-input" class="form-label">College</label>
+      <input id="college-input" class="form-control " type="text" required>
+      <div class="invalid-feedback">please provide valid college</div>
+    </div>
+    <div class="col-3">
+      <label for="year" class="form-label">Graduation Year</label>
+      <select class="form-select" id="year" required>
+        <option selected disabled value="">Choose...</option>
+        <option value="1" >2020</option>
+        <option value="2">2021</option>
+        <option value="3">2022</option>
+        <option value="3">2023</option>
+      </select>
+      <div class="invalid-feedback">please select a graduation year</div>   
+    </div>
+<div class="col-2">
+  <label for="roll-no-input" class="form-label">Roll no</label>
+  <input id="roll-no-input" class="number form-control" type="number" required>
+  <div class="invalid-feedback">please provide a valid number</div> 
+</div>
+    <div class="row py-4">
+      <div class="col">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="conditions-checkbox" required>
+        <label class="form-check-label" for="conditions-checkbox">
+          Agree to terms and conditions
+        </label>
+        <div class="invalid-feedback">you must agree before submitting</div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <button class="btn btn-primary ">Submit form</button>
+  </div>
+</form>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
-
 </html>
